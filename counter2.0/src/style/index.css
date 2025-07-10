@@ -1,0 +1,29 @@
+*
+{
+    font-family: montserrat;
+}
+.main-container
+{
+    height: 450px;
+    width: 750px;
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+button
+{
+    background-color: lightcoral;
+    padding: 10px 20px;
+    font-size: 22px;
+    margin: 10px;
+
+}
+h1
+{
+    color: maroon;
+}
+span
+{
+    color: lightcoral;
+}
