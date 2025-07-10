@@ -22,7 +22,7 @@ A simple React-based counter app that not only lets you increment and decrement 
 bash
 ```
 npm install
-npm run dev
+npm start
 ```
 
 <hr><hr><br>
