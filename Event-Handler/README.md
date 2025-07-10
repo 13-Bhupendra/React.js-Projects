@@ -1,12 +1,22 @@
-# React + Vite
+# 📅 Event Handler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based app that fetches and displays paginated data from an API using `axios`. It demonstrates how to handle API calls, manage loading/error states, and paginate results effectively.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches posts from JSONPlaceholder API
+- Pagination with Next and Prev buttons
+- Loading and error UI feedback
+- Responsive Bootstrap styling
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Hooks: `useState`, `useEffect`)
+- Axios for data fetching
+- Bootstrap for UI design
+
+## 📦 Installation
+
+```bash
+npm install
+npm start

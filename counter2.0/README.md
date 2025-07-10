@@ -1,3 +1,30 @@
+# 🔢 Counter 2.0
+
+A simple React-based counter app that not only lets you increment and decrement values, but also shows whether the current number is **even/odd** and **prime or not** — all in real-time!
+
+## 🚀 Features
+
+- Increment and decrement counter
+- Reset counter to zero
+- Displays whether the number is:
+  - Even or Odd
+  - Prime or Not Prime
+- Disabled decrement button when count is 0
+- Responsive UI with custom CSS
+
+## 🛠️ Built With
+
+- React (`useState`)
+- Custom CSS (`index.css`)
+
+## 📦 Installation
+
+```bash
+npm install
+npm start
+
+<hr><hr><br>
+
 ## Counter App 2.0
 
 Counter App which shows if the current number is "Even" or "Odd" and if its a Prime Number or Not.
