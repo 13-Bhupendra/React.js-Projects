@@ -19,9 +19,11 @@ A simple React-based counter app that not only lets you increment and decrement 
 
 ## 📦 Installation
 
-```bash
+bash
+```
 npm install
-npm start
+npm run dev
+```
 
 <hr><hr><br>
 
