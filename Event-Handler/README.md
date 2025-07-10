@@ -19,4 +19,4 @@ A React-based app that fetches and displays paginated data from an API using `ax
 
 ```bash
 npm install
-npm start
+npm run dev
