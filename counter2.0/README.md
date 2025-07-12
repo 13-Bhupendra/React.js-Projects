@@ -24,6 +24,8 @@ bash
 npm install
 npm start
 ```
+<img width="1875" height="893" alt="Screenshot 2025-07-12 111817" src="https://github.com/user-attachments/assets/130dac9e-cbba-4e76-854d-9e8a0f2ffe27" />
+
 
 <hr><hr><br>
 
