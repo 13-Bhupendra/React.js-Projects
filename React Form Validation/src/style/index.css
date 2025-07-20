@@ -1,0 +1,28 @@
+*
+{
+    font-family: montserrat;
+}
+h1
+{
+    text-align: center;
+    color: teal;
+}
+form
+{
+    width: 40%;
+    margin: auto;
+}
+section
+{
+    margin:0px 15px;
+    margin-top: 20px;
+}
+fieldset
+{
+    margin-top: 20px;
+}
+p
+{
+    margin: 0%;
+    font-size: 12px;
+}
