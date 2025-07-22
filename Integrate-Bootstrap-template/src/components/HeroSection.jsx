@@ -6,9 +6,9 @@ export default function MainContent() {
     return(
         <>
             <div className="container bg-light mt-5" style={{border:"1px solid gray"}}>
-                <div className="row p-5 pb-0 align-items-center">
+                <div className="row p-5 pb-md-0 pb-5 align-items-center">
                     
-                    <div className="col-12 col-md-7">
+                    <div className="col-12 col-md-7 order-2 order-md-1">
                         <h1 className='fw-bold mb-5'>Hey ! , I'm John Deo. </h1>
                         <p className='fs-5 fw-medium' style={{color:"gray"}}>
                             A freelancing Web Developer from London . I convert custom Web Design to Bootsrap Template .
@@ -18,7 +18,7 @@ export default function MainContent() {
                         <SocialMediaButtons />
                     </div>
 
-                    <div className="col-12 col-md-5 mt-5 d-flex justify-content-center">
+                    <div className="col-12 col-md-5 order-1 order-md-2 mb-5 mb-md-0 d-flex justify-content-center">
                         <img src={Person} alt=""  />
                     </div>
                 </div>
