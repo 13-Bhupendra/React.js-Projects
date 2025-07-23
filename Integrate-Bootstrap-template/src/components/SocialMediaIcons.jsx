@@ -3,25 +3,37 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import { useContext } from "react";
+import { ThemeContext } from "../Context/ThemeChanger";
 
 export default function SocialMediaButtons() {
+  const { Theme } = useContext(ThemeContext);
+
   return (
     <>
       <div className="mt-4">
         <a className="btn fs-3 p-0">
-          <FaLinkedin />
+          <FaLinkedin style={{ color: Theme == "light" ? "black" : "white" }} />
         </a>
         <a className="btn fs-3 p-1">
-          <FaSquareGithub />
+          <FaSquareGithub
+            style={{ color: Theme == "light" ? "black" : "white" }}
+          />
         </a>
         <a className="btn fs-3 p-1">
-          <FaSquareXTwitter />
+          <FaSquareXTwitter
+            style={{ color: Theme == "light" ? "black" : "white" }}
+          />
         </a>
         <a className="btn fs-3 p-1">
-          <RiInstagramFill />
+          <RiInstagramFill
+            style={{ color: Theme == "light" ? "black" : "white" }}
+          />
         </a>
         <a className="btn fs-3 p-1">
-         <FaFacebookSquare />
+          <FaFacebookSquare
+            style={{ color: Theme == "light" ? "black" : "white" }}
+          />
         </a>
       </div>
     </>
