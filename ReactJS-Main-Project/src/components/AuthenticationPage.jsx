@@ -3,7 +3,7 @@ import Login from "./Login";
 import { Navigate } from "react-router";
 
 const AuthenticationPage = ({ children }) => {
-    const isAuth = false
+    const isAuth = localStorage.getItem("token");
     
     if(!isAuth){
         return <Navigate to={"/login"} />
