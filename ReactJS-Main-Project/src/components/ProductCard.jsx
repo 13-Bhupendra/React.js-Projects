@@ -14,7 +14,7 @@ function ProductCard(el) {
         <Card.Title>{el.title}</Card.Title>
         <Card.Text>
           {el.category} <br />
-          <h3>${el.rating.rate}</h3>
+          <h3>${el.price}</h3>
         </Card.Text>
         <Button variant="danger">Remove</Button>
         <Button variant="success" className="ms-3">  Edit</Button>
