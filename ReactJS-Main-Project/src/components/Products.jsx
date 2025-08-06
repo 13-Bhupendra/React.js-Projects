@@ -14,14 +14,15 @@ const Products = () => {
   const fetchedDataFromServer = async () => {
     setloading(true);
     try {
-      const res = filter || search
-        ? await axios.get("http://localhost:3000/products", {
-            params: {
-              category: filter,
-              title_like : search
-            },
-          })
-        : await axios.get("http://localhost:3000/products");
+      const res =
+        filter || search
+          ? await axios.get("http://localhost:3000/products", {
+              params: {
+                category: filter,
+                title_like: search,
+              },
+            })
+          : await axios.get("http://localhost:3000/products");
 
       setfetchData(res.data);
       setloading(false);
@@ -38,7 +39,7 @@ const Products = () => {
 
   useEffect(() => {
     fetchedDataFromServer();
-  }, [filter , search]);
+  }, [filter, search]);
 
   return (
     <div className="container mt-5">
@@ -50,7 +51,7 @@ const Products = () => {
           className="m-2 p-2"
           style={{ height: "40px", width: "300px" }}
           value={search || ""}
-          onChange={(e)=>setsearch(e.target.value)}
+          onChange={(e) => setsearch(e.target.value)}
         />
 
         <select
